@@ -23,16 +23,14 @@ console.log(colore);
             //  IMPOSTAZIONE PASSWORD
 
 
-let password = nome + cognome + colore + 21;
-console.log = (password);
+let password = nome + cognome + colore + '21';
+console.log (password);
 
 
            //  SCRIVERE SU LAYOUT
 
-document.getElementById("nome").innerHTML = nome;
-
-document.getElementById("cognome").innerHTML = cognome;
-
-document.getElementById("colore").innerHTML = colore;
-
 document.getElementById("password").innerHTML = password;
+
+
+
+
