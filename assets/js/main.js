@@ -7,8 +7,32 @@
 
 
 
-let nome = prompt ("come ti chiami?")
-let cognome = prompt ("qual'è il tuo cognome")
-let colore = prompt ("qual'è il tuo colore preferito?")
+
+            //    DOMANDE UTENTE
+
+let nome = prompt ("come ti chiami?");
+console.log(nome);
+
+let cognome = prompt ("qual'è il tuo cognome");
+console.log(cognome);
+
+let colore = prompt ("qual'è il tuo colore preferito?");
+console.log(colore);
 
 
+            //  IMPOSTAZIONE PASSWORD
+
+
+let password = nome + cognome + colore + 21;
+console.log = (password);
+
+
+           //  SCRIVERE SU LAYOUT
+
+document.getElementById("nome").innerHTML = nome;
+
+document.getElementById("cognome").innerHTML = cognome;
+
+document.getElementById("colore").innerHTML = colore;
+
+document.getElementById("password").innerHTML = password;
